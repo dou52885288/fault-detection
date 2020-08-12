@@ -1,1 +1,3 @@
 # fault-detection
+这里利用了典型变量分析CVA和偏最小二乘回归PLSR对风电机组基准模型benchmark和真实结冰数据icing进行故障诊断
+data文件夹中包含了
