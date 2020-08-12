@@ -1,6 +1,6 @@
 # fault-detection
-这里利用了典型变量分析CVA和偏最小二乘回归PLSR对风电机组基准模型benchmark和真实机组结冰数据icing进行故障诊断
-data文件夹中包含了benchmark的7种故障类型f1,f2,f3,f5,f6,f7,f8，每个故障两个数据集和一组正常数据no2
-icing故障有两个正常数据集normal，normal_t,故障数据集failure
-benchamrk_detection，icing_detection分别是对benchmark和真实机组诊断的主程序，其他都是子程序
-主程序中Alarmfig是GUI交互程序，手动设置来计算门限值，误诊率和漏诊率
+这里利用了典型变量分析CVA和偏最小二乘回归PLSR对风电机组基准模型benchmark和真实机组结冰数据icing进行故障诊断；
+data文件夹中包含了benchmark的7种故障类型f1,f2,f3,f5,f6,f7,f8，每个故障两个数据集和一组正常数据no2；
+icing故障有两个正常数据集normal，normal_t,故障数据集failure；
+benchamrk_detection，icing_detection分别是对benchmark和真实机组诊断的主程序，其他都是子程序；
+主程序中AlarmConfig是GUI交互程序，手动设置来计算门限值，误诊率和漏诊率
